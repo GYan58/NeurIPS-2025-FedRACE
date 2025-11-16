@@ -39,17 +39,16 @@ Install via pip:
 All configuration parameters are defined in a dictionary inside main.py. Key parameters include:
 
 1. dataset_name: Name of the dataset (e.g., "Cifar100", "ImageNet", "Food")
-2. phi_type: Feature extractor type (e.g., "ResNet", "CLIP")
-3. defense_type: Defense mechanism to apply (e.g., "FedRACE", "MultiKrum", "TrimMean")
-4. attack_type: Type of attack to perform (e.g., "minmax", "inner_product")
-5. num_clients: Total number of clients in the federated learning setup
-6. num_malicious: Number of malicious clients controlled by the adversary
-7. participant_ratio: Fraction of clients participating in each training round
-8. learning_rate: Learning rate for model training
-9. dirichlet_alpha: Parameter for data distribution among clients
-10. batch_size: Batch size for training
-11. num_epoch: Number of local training epochs per client
-12. num_rounds: Total number of federated learning rounds
+2. defense_type: Defense mechanism to apply (e.g., "FedRACE", "MultiKrum", "TrimMean")
+3. attack_type: Type of attack to perform (e.g., "minmax", "inner_product")
+4. num_clients: Total number of clients in the federated learning setup
+5. num_malicious: Number of malicious clients controlled by the adversary
+6. participant_ratio: Fraction of clients participating in each training round
+7. learning_rate: Learning rate for model training
+8. dirichlet_alpha: Parameter for data distribution among clients
+9. batch_size: Batch size for training
+10. num_epoch: Number of local training epochs per client
+11. num_rounds: Total number of federated learning rounds
 
 ---
 
